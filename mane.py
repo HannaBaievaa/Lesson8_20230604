@@ -6,3 +6,5 @@ def mane_function() :
         else :
             result[color] += 1
         pairs = 0
+        for color in result :
+            pairs += result[color] // 2
