@@ -1,8 +1,6 @@
-def mane_function() :
+def mane_function(*args) :
     result = {}
-    for color in colors :
-        if color not in result :
-            result[color] = 1
-        else :
-            result[color] += 1
-        pairs = 0
+    for i in args :
+        for k,v in i.items :
+            if k not in result :
+
